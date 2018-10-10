@@ -39,7 +39,7 @@ body a,form li{
 /*---left-------*/
 .left-column{
 	float: left;
-	width:46%;
+	width:76%;
 }
 .right-column{
 	float:right;
@@ -54,14 +54,14 @@ background: transparent;
 	margin:5% auto ;text-align: center;
 }
 .inner-content h1{
-	font-size: 3em;
-	color: #000000;
+	font-size: 2em;
+	color: #ffffff;
 	background: transparent;
-	padding: 0.1em 0em;
+	padding: 0.5em 0em;
 }
 .inner-content h2{
-	font-size: 1.5em;
-	color: #000000;
+	font-size: 1em;
+	color: #ffffff;
 	background: transparent;
 	padding: 1.1em 0em;
 }
@@ -79,7 +79,7 @@ background: transparent;
 	margin: 2% 0;
 }
 .copy-right p {
-	color:#000;
+	color:#fff;
 	font-size: 1.1em;
 	font-weight:400;
 }
@@ -88,7 +88,7 @@ background: transparent;
 	color:#EB6262;
 }
 .copy-right p a:hover {
-	color: #000;
+	color: #fff;
 }
 /*-----start-responsive-design------*/
 @media (max-width:1440px){
