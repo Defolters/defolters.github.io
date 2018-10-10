@@ -51,7 +51,9 @@ background: transparent;
 }
 .inner-content {
 	width:49%;
-	margin:5% auto ;text-align: center;
+	margin:5% auto ;
+	text-align: center;
+	
 }
 .inner-content h1{
 	font-size: 2em;

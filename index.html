@@ -14,35 +14,70 @@
 body :not(h1):not(h2){
     font-family: 'Space Mono', monospace;
     font-size: 28px;
-    color: blue;
-    }
+    color: white;
+     text-decoration: none; 
+}
+div {
+    padding: 0px;
+}
+hr { 
+    display: block;
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+a:hover {
+    background-color: white;
+    color: black;
+}
+a:visited {
+    color: white;
+}
+a:visited:hover {
+    background-color: white;
+    color: black;
+}
+
+.blink_me {
+  animation: blinker 1s linear infinite;
+  color: black;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
 </style>
 </head>
 <!--body-->
 <body text="green"; style="background-color:#000000;">
 <!--start-->
 <div class="inner-content">
-<h1>Defolter</h1>
-
-<div><a href="https://vk.com/defolter" style="color: #ffffff"; text-decoration: none;>vkontakte</a></div>
-
-<div><a href="https://t.me/defolter" style="color: #ffffff"; text-decoration: none;>telegram</a></div>
-
-<div><a href="skype:ricaris2" style="color: #ffffff"; text-decoration: none;>skype</a></div>
-
-<div><a href="mailto:defolterricaris@gmail.com" style="color: #ffffff"; text-decoration: none;>mail me</a></div>
-
-<div><a href="https://www.facebook.com/defolterr" style="color: #ffffff"; text-decoration: none;>facebook</a></div>
-
-<div><a href="https://github.com/Defolters/" style="color: #ffffff"; text-decoration: none;>projects I've developed</a></div>
-
-<div><a href="https://vk.com/defolterz" style="color: #ffffff"; text-decoration: none;>prose I've wrote</a></div>
-
-<div><a href="https://twitter.com/Defoltre" style="color: #ffffff"; text-decoration: none;>books I've read</a></div>
-
-<div><a href="http://www.kinopoisk.ru/user/2723479/" style="color: #ffffff"; text-decoration: none;>movies I've watched</a></div>
-
-<div><a href="http://steamcommunity.com/id/defolter/" style="color: #ffffff"; text-decoration: none;>games I've played</a></div>
+<h1 style="display:inline">Defolter</h1><span style="background-color:white"; class="blink_me">_</span>
+<div style="height:10px; width:100%; clear:both;"></div>
+<div><a href="https://vk.com/defolter">vkontakte</a></div>
+<hr width="10%">
+<div><a href="https://t.me/defolter">telegram</a></div>
+<hr width="10%">
+<div><a href="skype:ricaris2">skype</a></div>
+<hr width="10%">
+<div><a href="mailto:defolterricaris@gmail.com">mail me</a></div>
+<hr width="10%">
+<div><a href="https://www.facebook.com/defolterr">facebook</a></div>
+<hr width="10%">
+<div><a href="https://github.com/Defolters/">projects I've developed</a></div>
+<hr width="10%">
+<div><a href="https://vk.com/defolterz">prose I've wrote</a></div>
+<hr width="10%">
+<div><a href="https://twitter.com/Defoltre">books I've read</a></div>
+<hr width="10%">
+<div><a href="http://www.kinopoisk.ru/user/2723479/">movies I've watched</a></div>
+<hr width="10%">
+<div><a href="http://steamcommunity.com/id/defolter/">games I've played</a></div>
 
 </div>
 </body>
